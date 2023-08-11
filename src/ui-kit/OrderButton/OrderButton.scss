@@ -1,0 +1,62 @@
+@import 'ui-kit/styles';
+
+.btnOrder {
+  $this: &;
+  width: 100%;
+  justify-content: space-between !important;
+  
+  svg path {
+    fill: $color-main-white;
+  }
+  &#{$this}__primary {
+    background-color: $color-primary !important;
+
+    &:hover {
+      background-color: $color-primary-hover !important;
+    }
+
+    &:active {
+      background-color: $color-primary-pressed !important;
+    }
+  }
+
+  &#{$this}__secondary {
+    background-color: $color-orange !important;
+
+    svg rect {
+      fill: $color-main-white !important;
+    }
+
+    &:hover {
+      background-color: $color-primary-hover !important;
+    }
+
+    &:active {
+      background-color: $color-primary-pressed !important;
+    }
+    
+  }
+  &#{$this}__success {
+    border: none !important;
+    background-color: $color-success-darken !important;
+
+    &:hover {
+      background-color: $color-success-hovered !important;
+    }
+
+    &:active {
+      background-color: $color-success-pressed !important;
+    }
+  }
+}
+
+.textJustify{
+  width: 250%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderLogo{
+  width: 30px;
+}

@@ -1,0 +1,88 @@
+@import 'ui-kit/styles';
+
+.locationWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 767px) {
+    gap: 0px;
+    flex-direction: column;
+  }
+}
+.locationContainer {
+  display: flex;
+  line-height: 100px;
+  margin: 5px;
+  padding-top: 35px;
+  gap: 10px;
+  flex-basis: calc(33.33% - 10px);
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    max-width: max-content;
+  }
+}
+
+.locationContainerIsMap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 4px solid $color-primary;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.icon {
+  display: flex;
+  align-self: flex-start;
+  svg path {
+    fill: $color-red;
+  }
+  width: 24px;
+  height: 24px;
+
+  @media (max-width: 767px) {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.locationMap {
+  display: flex;
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-top: 10px;
+    order: 2;
+  }
+}
+
+.locationText {
+  word-break: normal;
+  color: $color-text;
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    margin-top: 5px;
+    @include SoinSansNeue-24-bold;
+  }
+
+  &-body {
+    @include SoinSansNeue-14-small;
+    color: $color-disabled;
+  }
+
+  @media (max-width: 767px) {
+    &-title {
+      @include SoinSansNeue-20-bold;
+    }
+    &-body {
+      max-width: 500px;
+      @include SoinSansNeue-16-bold;
+    }
+  }
+}

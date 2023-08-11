@@ -1,0 +1,21 @@
+@import 'ui-kit/styles';
+
+.dividerLine {
+  border-top: 4px solid $color-primary;
+  width: 7%;
+
+  @media (max-width: 1024px) {
+    width: 25%;
+  }
+}
+
+.contactDivider {
+  @include SoinSansNeue-48-bold;
+  @media (max-width: 1024px) {
+    @include SoinSansNeue-36-bold;
+    padding: 0;
+  }
+  @media (max-width: 767px) {
+    @include SoinSansNeue-24-bold;
+  }
+}

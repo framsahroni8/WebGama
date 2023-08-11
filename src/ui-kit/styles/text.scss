@@ -1,0 +1,181 @@
+$base-font-family: "Soin Sans Neue", sans-serif;
+
+/* SoinSansNeue/10/Regular */
+@mixin SoinSansNeue-10-regular {
+  font-family: $base-font-family;
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+
+}
+/* SoinSansNeue/12/Regular */
+@mixin SoinSansNeue-12-regular {
+  font-family: $base-font-family;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+
+}
+/* SoinSansNeue/13/Small */
+@mixin SoinSansNeue-13-small {
+  font-family: $base-font-family;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+/* SoinSansNeue/14/Small */
+@mixin SoinSansNeue-14-small {
+  font-family: $base-font-family;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 24px;
+}
+
+/* SoinSansNeue/14/Regular */
+@mixin SoinSansNeue-14-regular {
+  font-family: $base-font-family;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/14/Bold */
+@mixin SoinSansNeue-14-bold {
+  font-family: $base-font-family;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/15/Bold */
+@mixin SoinSansNeue-15-bold {
+  font-family: $base-font-family;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/16/Regular */
+@mixin SoinSansNeue-16-regular {
+  font-family: $base-font-family;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/16/Bold */
+@mixin SoinSansNeue-16-bold {
+  font-family: $base-font-family;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/18/Bold */
+@mixin SoinSansNeue-18-bold {
+  font-family: $base-font-family;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/20/Bold */
+@mixin SoinSansNeue-20-bold {
+  font-family: $base-font-family;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/28/Medium */
+@mixin SoinSansNeue-28-medium {
+  font-family: $base-font-family;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/24/Regular */
+@mixin SoinSansNeue-24-regular {
+  font-family: $base-font-family;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/24/Bold */
+@mixin SoinSansNeue-24-bold {
+  font-family: $base-font-family;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/30/Bold */
+@mixin SoinSansNeue-30-bold {
+  font-family: $base-font-family;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/36/Bold */
+@mixin SoinSansNeue-36-bold {
+  font-family: $base-font-family;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/36/SuperBold */
+@mixin SoinSansNeue-36-SuperBold {
+  font-family: $base-font-family;
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/38/Bold */
+@mixin SoinSansNeue-38-bold {
+  font-family: $base-font-family;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/42/Bold */
+@mixin SoinSansNeue-42-bold {
+  font-family: $base-font-family;
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+/* SoinSansNeue/48/Bold */
+@mixin SoinSansNeue-48-bold {
+  font-family: $base-font-family;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.25;
+}

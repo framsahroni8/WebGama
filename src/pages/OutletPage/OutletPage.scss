@@ -1,0 +1,19 @@
+@import 'ui-kit/styles';
+
+
+.btnBack{
+    &:hover{
+        color: $color-red;
+
+        svg path{
+            fill: $color-red !important;
+        }
+    }
+}
+
+.outletHeight{
+    min-height: calc(100vh - 200px); /* Sesuaikan dengan tinggi footer */
+
+  /* Tambahkan properti berikut untuk mengatur jarak dari footer */
+  margin-bottom: 80px; /* Sesuaikan jarak yang diinginkan */
+}

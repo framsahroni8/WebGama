@@ -1,0 +1,31 @@
+@import 'ui-kit/styles';
+
+.Eatery {
+}
+
+.screenContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 110px);
+    margin-bottom: 0px;
+}
+
+.eateryText{
+    @include SoinSansNeue-48-bold;
+
+    @media(max-width:1024px){
+        @include SoinSansNeue-24-bold;
+    }
+}
+
+.iconImg{
+    filter: hue-rotate(30deg);
+
+    @media(max-width: 1024px){
+        width: 150px;
+        height: 100px;
+    }
+}

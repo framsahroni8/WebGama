@@ -1,0 +1,94 @@
+@import 'ui-kit/styles';
+
+.navbar-logo {
+  cursor: pointer;
+  @media (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+
+.navbar {
+  min-height: 60px !important;
+  padding: 0 !important;
+}
+
+.navbar-menu:hover {
+  color: $color-headline;
+  fill: $color-headline;
+  border-bottom: 2.5px solid $color-headline;
+}
+
+.menu li:active {
+  color: $color-headline;
+  fill: $color-headline;
+  border-bottom: 2.5px solid $color-headline;
+}
+
+.navbar-responsive {
+  gap: 80px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1024px) {
+    gap: 0;
+  }
+}
+
+.btn-navbar {
+  fill: $color-main-white;
+  color: $color-main-white;
+  // background-color: #D83327;
+  font-size: 0.8rem;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0px 10px 30px -9px rgba(0, 0, 0, 0.16);
+  padding: 10px 30px 10px 30px !important;
+
+  @media (max-width: 1024px) {
+    visibility: hidden;
+  }
+}
+
+.navActive {
+  color: $color-headline;
+  fill: $color-headline;
+  border-bottom: 2.5px solid $color-headline;
+
+  &:hover{
+    border-bottom: 2.5px solid $color-headline;
+  }
+}
+.navInactive {
+  color: none;
+  fill: none;
+  border-bottom: none;
+}
+
+.navHidden {
+  @media (max-width: 1024px) {
+    visibility: hidden;
+  }
+}
+
+.navbar a {
+  color: white;
+
+  &:hover {
+    border-radius: 0 !important;
+    // fill: $color-headline;
+    // background-color: #004779;
+    border-bottom: 2.5px solid $color-headline;
+  }
+}
+
+.navbar a:active {
+  color: white;
+}

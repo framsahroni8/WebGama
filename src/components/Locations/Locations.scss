@@ -1,0 +1,28 @@
+@import 'ui-kit/styles';
+
+.locationsWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // gap: 90px;
+    // padding-left: 65px;
+    // padding-right: 65px;
+    @media(max-width: 767px) {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+}
+
+.locationsContainer{
+    flex-basis: calc(33.33% - 20px);
+    // padding-left: 84px;
+    // padding-right: 84px;
+    @media(max-width: 767px){
+        padding: 0px;
+    }
+}
+
+.locationsTitle{
+    color: black;
+}

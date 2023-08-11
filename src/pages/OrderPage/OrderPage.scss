@@ -1,0 +1,13 @@
+@import "ui-kit/styles";
+
+.orderHeight{
+    min-height: calc(110vh - 200px); /* Sesuaikan dengan tinggi footer */
+
+    /* Tambahkan properti berikut untuk mengatur jarak dari footer */
+    margin-bottom: 0px; /* Sesuaikan jarak yang diinginkan */
+}
+
+.orderText{
+    @include SoinSansNeue-30-bold;
+    color: $color-text;
+}

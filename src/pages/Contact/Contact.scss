@@ -1,0 +1,17 @@
+.flexContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(99vh - 200px); /* Sesuaikan dengan tinggi footer */
+
+  /* Tambahkan properti berikut untuk mengatur jarak dari footer */
+  margin-bottom: 100px; /* Sesuaikan jarak yang diinginkan */
+}

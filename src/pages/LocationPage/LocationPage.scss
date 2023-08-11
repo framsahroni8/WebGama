@@ -1,0 +1,10 @@
+.locationPageWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    color: black;
+
+    @media(max-width: 767px){
+        padding: 10px;
+    }
+}

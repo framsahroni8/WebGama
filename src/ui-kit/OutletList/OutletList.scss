@@ -1,0 +1,71 @@
+@import 'ui-kit/styles';
+
+.outletWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outletContainer {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center; /* Tambahkan properti ini */
+    border-bottom: 1px solid black;
+}
+
+.OutletLocation {
+  @include SoinSansNeue-18-bold;
+  max-width: fit-content;
+  color: black;
+
+  @media (max-width: 1024px) {
+    @include SoinSansNeue-16-bold;
+  }
+
+  @media (max-width: 768px) {
+    @include SoinSansNeue-10-regular;
+  }
+}
+
+.outletBody {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Tambahkan jarak antara teks dan ikon */
+  
+  @include SoinSansNeue-14-bold;
+  color: $color-primary;
+
+  
+
+  &:hover {
+    color: $color-primary-hover !important;
+  }
+
+  @media (max-width: 1024px) {
+    @include SoinSansNeue-12-regular;
+  }
+  @media (max-width: 768px) {
+    @include SoinSansNeue-10-regular;
+  }
+}
+
+.outletLink{
+
+  svg{
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  svg path {
+    fill: $color-primary !important;
+  }
+
+  @media(max-width:1024px){
+    svg{
+      width: 16px !important;
+      height: 16px !important;
+  }
+}
+}

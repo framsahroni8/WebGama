@@ -1,0 +1,48 @@
+@import 'ui-kit/styles';
+
+
+.contact{
+// padding-left: 155px;
+// padding-right: 155px;
+// padding-top: 64px;
+// padding-bottom: 64px;
+
+@media(max-width: 767px){
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+}
+
+.contactContainer{
+    // text-align: center
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+
+    @media(max-width: 767px){
+        padding: 0;
+    }
+}
+
+
+.contactText{
+    // padding-left: 105px;
+    @include SoinSansNeue-48-bold;
+    color: black;
+    
+    @media(max-width:1024px){
+        @include SoinSansNeue-36-bold;
+    }
+
+    @media(max-width: 767px){
+        @include SoinSansNeue-30-bold;
+    }
+}
+
+.modalIcon{
+    display: flex;
+    svg path{
+        fill: $color-main-white;
+    }
+}

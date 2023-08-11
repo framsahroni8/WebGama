@@ -1,0 +1,64 @@
+@import 'ui-kit/styles';
+
+.headlineContainer {
+  display: flex;
+  @media(max-width: 1024px){
+    display: inline-block;
+  }
+}
+
+.headlineImage {
+  width: 70%;
+  @media(max-width: 1024px){
+    width: 100%;
+  }
+}
+
+.headlineWidget {
+  display: flex;
+  width: 30%;
+  background-color: $color-headline;
+  align-content: flex-end;
+  align-items: flex-end;
+  @media(max-width: 1024px){
+    width: 100%;
+  }
+}
+
+.headlineText {
+  height: 180px;
+  margin-top: auto;
+  color: $color-primary;
+  @media(max-width: 1024px){
+    height: auto;
+  }
+
+  &-header {
+    @include SoinSansNeue-48-bold;
+    @media(max-width: 1024px){
+      @include SoinSansNeue-38-bold;
+    }
+    @media(max-width: 767px){
+      @include SoinSansNeue-42-bold;
+    }
+  }
+
+  &-body {
+    @include SoinSansNeue-24-bold;
+    @media(max-width: 1024px){
+      @include SoinSansNeue-16-bold;
+    }
+  }
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

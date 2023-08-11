@@ -1,0 +1,73 @@
+@import 'ui-kit/styles';
+
+.footerContainer {
+  padding: 10px;
+  background-color: $color-footer;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Menyelaraskan elemen secara vertikal */
+
+  @media (max-width: 768px) {
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+.footerText {
+  @include SoinSansNeue-13-small;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
+}
+
+.footerDetail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  svg path {
+    fill: $color-primary;
+  }
+  &:hover {
+    box-sizing: $shadow-black;
+  }
+
+  @media (max-width: 767px) {
+    gap: 8px;
+    padding-top: 14px;
+    justify-content: space-between;
+  }
+}
+
+.footerShare {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footerLogo {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  svg path {
+    fill: $color-primary;
+  }
+  &:hover {
+    box-sizing: $shadow-black;
+  }
+
+  @media (max-width: 767px) {
+    gap: 8px;
+    padding-top: 14px;
+    margin-top: -4px;
+  }
+}

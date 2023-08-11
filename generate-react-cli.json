@@ -29,6 +29,19 @@
         "styles": "src/templates/TemplateName.scss",
         "index": "src/templates/index.ts"
       }
+    },
+    "UiKit": {
+      "path": "src/ui-kit",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "src/templates/TemplateName.tsx",
+        "styles": "src/templates/TemplateName.scss",
+        "index": "src/templates/index.ts"
+      }
     }
   },
   "usesStyledComponents": false

@@ -33,6 +33,7 @@ npx generate-react-cli component ComponentName
 ```
 npx generate-react-cli component PageName  --type=page
 npx generate-react-cli component CompName  --type=default
+npx generate-react-cli component UiName  --type=UiKit
 ```
 these commands will create the new component in a sub-folder located inside these folders depending on the type:
 - ./src/components
@@ -42,6 +43,7 @@ The root folder can also be manually specified by using --path parameter
 ```
 npx generate-react-cli component PageName  --type=page --path=src/pages/
 npx generate-react-cli component CompName  --type=default --path=src/components/
+npx generate-react-cli component UiName  --type=UiKit --path=src/ui-kit/
 ```
 The output will be inside "./src/pages/some-inner-folder/PageName/" for the first case
 

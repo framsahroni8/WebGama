@@ -1,1 +1,46 @@
-.Landing {}
+@import 'ui-kit/styles';
+
+.Landing {
+    background-color: #FFB6C1;
+}
+
+.gamaText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    animation: blinks 5s infinite;
+    @include SoinSansNeue-108-bold;
+}
+
+.textBtnLanding{
+    @include SoinSansNeue-36-bold;
+    background-color: $color-orange !important;
+    &:hover{
+        background-color: $color-primary-hover !important;
+    }
+    &:active{
+        background-color: $color-primary-pressed !important;
+    }
+    border-radius: 20px;
+}
+
+@keyframes blinks {
+    0%, 25% {
+      opacity: 1; // Teks menjadi transparan pada awal dan akhir animasi
+      color: black; // Warna teks saat transparan
+    }
+    50% {
+      opacity: 1; // Teks menjadi solid pada tengah animasi
+      color: white; // Warna teks saat solid
+    }
+    75% {
+      opacity: 1; // Teks menjadi transparan pada awal dan akhir animasi
+      color: gold; // Warna teks saat transparan
+    }
+    0%,100% {
+      opacity: 1; // Teks menjadi solid pada tengah animasi
+      color: orange; // Warna teks saat solid
+    }
+  }

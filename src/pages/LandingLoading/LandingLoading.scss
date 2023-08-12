@@ -1,1 +1,63 @@
-.LandingLoading {}
+@import 'ui-kit/styles';
+
+.LandingLoading {
+   
+}
+
+.loadingWait{
+    @include SoinSansNeue-68-bold;
+    animation: blink 5s infinite;
+}
+
+.loadingPhoto{
+    width: 60%;
+}
+.loadingWrapper {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .loadingBarWrapper {
+    position: relative;
+    width: 55%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 0px;    
+    overflow: hidden;
+  }
+  
+  .loadingBar {
+    position: relative;
+    height: 100%;
+    background-color: orange;
+    transition: width 0.5s ease-in-out;
+  }
+  .loadingText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+  }
+  
+  @keyframes blink {
+    0%, 25% {
+      opacity: 1; // Teks menjadi transparan pada awal dan akhir animasi
+      color: red; // Warna teks saat transparan
+    }
+    50% {
+      opacity: 1; // Teks menjadi solid pada tengah animasi
+      color: green; // Warna teks saat solid
+    }
+    75% {
+      opacity: 1; // Teks menjadi transparan pada awal dan akhir animasi
+      color: blue; // Warna teks saat transparan
+    }
+    0%,100% {
+      opacity: 1; // Teks menjadi solid pada tengah animasi
+      color: orange; // Warna teks saat solid
+    }
+  }

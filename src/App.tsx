@@ -12,9 +12,9 @@ function App() {
     <Provider store={store}>
       <div className='App'>
         <BrowserRouter>
-          <NavBar />
+          {/* <NavBar /> */}
           <MainRoutes />
-          <Footer />
+          {/* <Footer /> */}
         </BrowserRouter>
       </div>
     </Provider>

@@ -1,6 +1,8 @@
 import { Home } from './Home'
 // import { MenuPage } from './MenuPage'
 import { Contact } from './Contact'
+import { Landing } from './Landing'
+import { LandingLoading } from './LandingLoading'
 import { LocationPage } from './LocationPage'
 import { OrderPage } from './OrderPage'
 import { GoFoodPage } from './OutletPage/GoFood'
@@ -10,4 +12,4 @@ import { Login } from './Login'
 import { NotFound } from './NotFound'
 import { SecondPage } from './SecondPage'
 
-export { Home, Contact, LocationPage, OrderPage, GoFoodPage, GrabFood, ShopeeFood, Login, NotFound, SecondPage }
+export { Home, Contact, Landing, LandingLoading, LocationPage, OrderPage, GoFoodPage, GrabFood, ShopeeFood, Login, NotFound, SecondPage }
